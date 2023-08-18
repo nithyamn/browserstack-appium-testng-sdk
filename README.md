@@ -15,6 +15,7 @@
   set BROWSERSTACK_ACCESS_KEY=<browserstack-access-key>
 ```
 * Change app path in `browserstack-android.yml` file
+* Add test code in `src/test/java/android/AndroidTestCase.java`
 * Command to execute: `mvn test -Dtest=AndroidTestCase -Dbrowserstack.config=browserstack-android.yml`
 
 ### iOS
@@ -30,5 +31,6 @@
   set BROWSERSTACK_ACCESS_KEY=<browserstack-access-key>
 ```
 * Change app path in `browserstack-ios.yml` file
+* Add test code in `src/test/java/ios/IOSTestCase.java`
 * Command to execute: `mvn test -Dtest=IOSTestCase -Dbrowserstack.config=browserstack-ios.yml`
 
